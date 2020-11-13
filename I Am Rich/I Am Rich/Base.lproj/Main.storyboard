@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Rich" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="\">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Rich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ol1-Fu-kd9">
+                                <rect key="frame" x="131" y="174" width="152" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="152" id="5Dn-T5-Vd0"/>
+                                    <constraint firstAttribute="height" constant="41" id="6nK-A9-dWN"/>
+                                    <constraint firstAttribute="width" secondItem="Ol1-Fu-kd9" secondAttribute="height" multiplier="152:41" id="FG1-LM-jjg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="KNu-dM-LlK">
+                                <rect key="frame" x="10" y="120" width="394" height="754"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.14901960784313725" blue="0.23137254901960785" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="KNu-dM-LlK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AfM-JF-Oqm"/>
+                            <constraint firstItem="KNu-dM-LlK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="120" id="Y14-qv-BOj"/>
+                            <constraint firstItem="Ol1-Fu-kd9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zra-iZ-ZV7"/>
+                            <constraint firstItem="Ol1-Fu-kd9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="130" id="hMy-8V-0uM"/>
+                            <constraint firstItem="KNu-dM-LlK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="lAT-ox-CCn"/>
+                            <constraint firstAttribute="trailing" secondItem="KNu-dM-LlK" secondAttribute="trailing" constant="10" id="xGg-R4-NOc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="120"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="diamond" width="1030" height="754"/>
+    </resources>
+</document>
