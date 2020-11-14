@@ -1,3 +1,3 @@
 # iOSPracticeApps
 
-iOS application developd in parallel with a Udemy Course
+iOS applications developed in parallel with a Udemy Course
